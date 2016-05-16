@@ -83,7 +83,7 @@ img {
 </ul>
 <p>Section 1: Code for opening and processing the data</p>
 <p>The below code assumes that the data is saved into the working directory of the user.</p>
-<pre class="r"><code>data&lt;-read.csv(&quot;activity.csv&quot;,colClasses=c(&quot;numeric&quot;, &quot;character&quot;, &quot;numeric&quot;))
+<pre class="r"><code>data&lt;-read.csv(&quot;C:/Users/Roland/Desktop/Coursera/Data Science/Working Directory/repdata-data-activity/activity.csv&quot;,colClasses=c(&quot;numeric&quot;, &quot;character&quot;, &quot;numeric&quot;))
 data$date &lt;- as.Date(data$date, format = &quot;%Y-%m-%d&quot;)
 head(data)</code></pre>
 <pre><code>##   steps       date interval

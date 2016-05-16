@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 Reproducible Research Assignment - Activity Monitoring
 ===
 
